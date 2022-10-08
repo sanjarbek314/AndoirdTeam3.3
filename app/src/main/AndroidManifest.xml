@@ -12,9 +12,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AndoirdTeam33"
         tools:targetApi="31">
-
-
-
+        <activity
+            android:name=".mavzular.birinchMavzu.masala.UchinchiMasala1Activity"
+            android:exported="true">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
         <activity
             android:name="com.example.androidteam32.mavzular.ikkinchiMavzu.masala.IkkinchiMasala2"
             android:exported="false">

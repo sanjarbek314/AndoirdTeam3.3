@@ -3,8 +3,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/bg_dars"
     android:orientation="vertical"
-    tools:context="com.example.androidteam32.mavzular.birinchMavzu.masala.IkkinchiMasala1Activitiy">
+    tools:context=".mavzular.birinchMavzu.masala.UchinchiMasala1Activity">
 
     <ScrollView
         android:layout_width="match_parent"
@@ -15,31 +16,38 @@
             android:layout_height="match_parent"
             android:orientation="vertical">
 
-
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:text="Begin2"
+                android:text="Begin3"
                 android:textColor="#000"
                 android:textSize="50dp" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-
                 android:layout_gravity="center"
-                android:layout_marginHorizontal="10dp"
-                android:text="Begin2. Kvadratning tomoni a berilgan. Uning yuzasi aniqlansin. S = a*a"
+                android:text="Begin3. To'g'ri to'rtburchakning tomonlari a va b berilgan. Uning yuzasi S = a * b; va P = 2 * (a + b) perimetri aniqlansin."
                 android:textColor="#000"
                 android:textSize="20dp" />
 
+
             <EditText
-                android:inputType="number"
                 android:id="@+id/edit_text"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginHorizontal="10dp" />
+                android:layout_marginHorizontal="10dp"
+                android:text="a="
+                android:textSize="30dp" />
+
+            <EditText
+                android:id="@+id/edit_text1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10dp"
+                android:text="b="
+                android:textSize="30dp" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -57,23 +65,24 @@
                 <ImageView
                     android:layout_width="200dp"
                     android:layout_height="200dp"
-                    android:src="@drawable/img_5" />
+                    android:src="@drawable/img_7" />
 
                 <ImageView
                     android:layout_width="200dp"
                     android:layout_height="200dp"
                     android:layout_marginLeft="10dp"
-                    android:src="@drawable/img_6" />
+                    android:src="@drawable/img_8" />
+
+
             </androidx.appcompat.widget.LinearLayoutCompat>
 
             <androidx.appcompat.widget.AppCompatButton
-                android:id="@+id/btn_1"
+                android:id="@+id/btn"
                 android:layout_width="200dp"
                 android:layout_height="100dp"
                 android:layout_gravity="center"
                 android:text="hisobla"
                 android:textSize="30dp" />
-
 
             <TextView
                 android:id="@+id/misol"
@@ -84,11 +93,8 @@
                 android:textColor="#000"
                 android:textSize="50dp" />
 
-
         </androidx.appcompat.widget.LinearLayoutCompat>
 
-
     </ScrollView>
-
 
 </androidx.appcompat.widget.LinearLayoutCompat>
