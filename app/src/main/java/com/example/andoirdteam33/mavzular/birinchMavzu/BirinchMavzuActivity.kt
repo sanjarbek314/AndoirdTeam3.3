@@ -4,6 +4,7 @@ import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import com.example.andoirdteam33.databinding.ActivityBirinchMavzuBinding
+import com.example.andoirdteam33.mavzular.birinchMavzu.masala.TortinchiMasala1Activity
 import com.example.andoirdteam33.mavzular.birinchMavzu.masala.UchinchiMasala1Activity
 import com.example.androidteam32.mavzular.birinchMavzu.masala.BirinchiMasala1Activity
 import com.example.androidteam32.mavzular.birinchMavzu.masala.IkkinchiMasala1Activitiy
@@ -22,6 +23,9 @@ class BirinchMavzuActivity : AppCompatActivity() {
         }
         binding.btn3.setOnClickListener {
             startActivity(Intent(this, UchinchiMasala1Activity::class.java))
+        }
+        binding.btn4.setOnClickListener {
+            startActivity(Intent(this, TortinchiMasala1Activity::class.java))
         }
 
     }
