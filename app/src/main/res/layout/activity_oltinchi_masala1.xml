@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".mavzular.birinchMavzu.masala.UchinchiMasala1Activity">
+    tools:context=".mavzular.birinchMavzu.masala.OltinchiMasala1Activity">
 
     <ScrollView
         android:layout_width="match_parent"
@@ -15,11 +15,12 @@
             android:layout_height="match_parent"
             android:orientation="vertical">
 
+
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:text="Begin3"
+                android:text="Begin6"
                 android:textColor="#000"
                 android:textSize="50dp" />
 
@@ -27,26 +28,36 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:layout_marginHorizontal="20dp"
-                android:text="Begin3. To'g'ri to'rtburchakning tomonlari a va b berilgan. Uning yuzasi S = a * b; va P = 2 * (a + b) perimetri aniqlansin."
-                android:textColor="#000"
-                android:textSize="20dp" />
-
-
-            <EditText
-                android:id="@+id/edit_text"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
                 android:layout_marginHorizontal="10dp"
-                android:text="a="
+                android:text="Begin6. Paralelepepidning tomonlari a, b, c berilgan. Uning hajmini V =a*b*c va to'la sirti S = 2-(a*b+b*c+a*c) aniqlansin."
+                android:textColor="#000"
                 android:textSize="30dp" />
 
             <EditText
-                android:id="@+id/edit_text1"
+                android:id="@+id/chiziq"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginHorizontal="10dp"
-                android:text="b="
+                android:hint="a="
+                android:inputType="number"
+                android:textSize="30dp" />
+
+            <EditText
+                android:id="@+id/chiziq1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10dp"
+                android:hint="b="
+                android:inputType="number"
+                android:textSize="30dp" />
+
+            <EditText
+                android:id="@+id/chiziq2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10dp"
+                android:hint="c="
+                android:inputType="number"
                 android:textSize="30dp" />
 
             <TextView
@@ -65,23 +76,23 @@
                 <ImageView
                     android:layout_width="200dp"
                     android:layout_height="200dp"
-                    android:src="@drawable/img_7" />
+                    android:src="@drawable/img_11" />
 
                 <ImageView
                     android:layout_width="200dp"
                     android:layout_height="200dp"
                     android:layout_marginLeft="10dp"
-                    android:src="@drawable/img_8" />
+                    android:src="@drawable/img_12" />
 
 
             </androidx.appcompat.widget.LinearLayoutCompat>
 
             <androidx.appcompat.widget.AppCompatButton
-                android:id="@+id/btn"
+                android:id="@+id/btn_1"
                 android:layout_width="200dp"
-                android:layout_height="100dp"
+                android:layout_height="200dp"
                 android:layout_gravity="center"
-                android:text="hisobla"
+                android:background="?android:attr/alertDialogIcon"
                 android:textSize="30dp" />
 
             <TextView
@@ -93,8 +104,7 @@
                 android:textColor="#000"
                 android:textSize="50dp" />
 
+
         </androidx.appcompat.widget.LinearLayoutCompat>
-
     </ScrollView>
-
 </androidx.appcompat.widget.LinearLayoutCompat>
