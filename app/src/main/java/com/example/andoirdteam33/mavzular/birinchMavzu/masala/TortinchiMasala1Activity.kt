@@ -2,7 +2,6 @@ package com.example.andoirdteam33.mavzular.birinchMavzu.masala
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.example.andoirdteam33.R
 import com.example.andoirdteam33.databinding.ActivityTortinchiMasala1Binding
 
 class TortinchiMasala1Activity : AppCompatActivity() {
