@@ -76,7 +76,7 @@
                     android:layout_width="200dp"
                     android:layout_height="200dp"
                     android:layout_marginLeft="10dp"
-                    android:src="@drawable/img_12" />
+                    android:src="@drawable/img" />
 
 
             </androidx.appcompat.widget.LinearLayoutCompat>
