@@ -16,7 +16,7 @@ class ToqqizinchiMasala1Activity : AppCompatActivity() {
         setContentView(binding.root)
         binding.btn1.setOnClickListener {
             if (binding.chiziq.text.toString().isNotEmpty()&&binding.chiziq1.text.toString().isNotEmpty()){
-                binding.misol.text="o'rta geometrigi=${Math(sqrt(binding.chiziq.text.toString().toDouble()*binding.chiziq1.text.toString().toDouble()))}"
+                binding.misol.text="o'rta geometrigi=${Math.sqrt(binding.chiziq.text.toString().toDouble()*binding.chiziq1.text.toString().toDouble())}"
             }else{
                 Toast.makeText(this, "raqam kiriting!!", Toast.LENGTH_SHORT).show()
             }
