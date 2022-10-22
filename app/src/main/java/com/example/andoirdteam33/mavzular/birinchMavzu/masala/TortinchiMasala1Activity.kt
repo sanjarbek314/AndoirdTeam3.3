@@ -2,6 +2,7 @@ package com.example.andoirdteam33.mavzular.birinchMavzu.masala
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.widget.Toast
 import com.example.andoirdteam33.databinding.ActivityTortinchiMasala1Binding
 
 class TortinchiMasala1Activity : AppCompatActivity() {
@@ -13,7 +14,16 @@ class TortinchiMasala1Activity : AppCompatActivity() {
         setContentView(binding.root)
 
         binding.btn1.setOnClickListener {
-            binding.misol.text = "L=${pi * binding.editText.text.toString().toInt()}"
+            if (binding.editText.text.toString().isNotEmpty()){
+                binding.misol.text = "L=${pi * binding.editText.text.toString().toInt()}"
+        }else{
+                Toast.makeText(this, "raqam kiriting!!", Toast.LENGTH_SHORT).show()
+        }
+
+
+
+
+
         }
 
     }

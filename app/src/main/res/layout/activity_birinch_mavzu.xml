@@ -56,30 +56,35 @@
                     android:textSize="30dp" />
 
                 <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/btn_11"
                     android:layout_width="200dp"
                     android:layout_height="100dp"
                     android:text="11-masala"
                     android:textSize="30dp" />
 
                 <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/btn_13"
                     android:layout_width="200dp"
                     android:layout_height="100dp"
                     android:text="13-masala"
                     android:textSize="30dp" />
 
                 <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/btn_15"
                     android:layout_width="200dp"
                     android:layout_height="100dp"
                     android:text="15-masala"
                     android:textSize="30dp" />
 
                 <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/btn_17"
                     android:layout_width="200dp"
                     android:layout_height="100dp"
                     android:text="17-masala"
                     android:textSize="30dp" />
 
                 <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/btn_19"
                     android:layout_width="200dp"
                     android:layout_height="100dp"
                     android:text="19-masala"
@@ -136,24 +141,28 @@
                     android:textSize="30dp" />
 
                 <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/btn_14"
                     android:layout_width="200dp"
                     android:layout_height="100dp"
                     android:text="14-masala"
                     android:textSize="30dp" />
 
                 <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/btn_16"
                     android:layout_width="200dp"
                     android:layout_height="100dp"
                     android:text="16-masala"
                     android:textSize="30dp" />
 
                 <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/btn_18"
                     android:layout_width="200dp"
                     android:layout_height="100dp"
                     android:text="18-masala"
                     android:textSize="30dp" />
 
                 <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/btn_20"
                     android:layout_width="200dp"
                     android:layout_height="100dp"
                     android:text="20-masala"

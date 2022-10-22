@@ -3,8 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    tools:context=".mavzular.birinchMavzu.masala.OltinchiMasala1Activity">
+    tools:context=".mavzular.birinchMavzu.masala.OnYettinchiMasala1Activity">
 
     <ScrollView
         android:layout_width="match_parent"
@@ -20,7 +19,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:text="Begin6"
+                android:text="Begin17"
                 android:textColor="#000"
                 android:textSize="50dp" />
 
@@ -29,36 +28,37 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_marginHorizontal="10dp"
-                android:text="Begin6. Paralelepepidning tomonlari a, b, c berilgan. Uning hajmini V =a*b*c va to'la sirti S = 2-(a*b+b*c+a*c) aniqlansin."
+                android:text="Begin17. Sonlar o'qida A, B, C nuqtalar berilgan. AC va BC kesmalarning uzunligini va kesmalar uzunligining yig indisini topuvchi programma tuzilsin."
                 android:textColor="#000"
                 android:textSize="30dp" />
 
             <EditText
-                android:id="@+id/a"
+                android:id="@+id/A"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginHorizontal="10dp"
-                android:hint="a="
+                android:hint="A="
                 android:inputType="number"
                 android:textSize="30dp" />
 
             <EditText
-                android:id="@+id/b"
+                android:id="@+id/B"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginHorizontal="10dp"
-                android:hint="b="
+                android:hint="B="
                 android:inputType="number"
                 android:textSize="30dp" />
 
             <EditText
-                android:id="@+id/c"
+                android:id="@+id/C"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginHorizontal="10dp"
-                android:hint="c="
+                android:hint="C="
                 android:inputType="number"
                 android:textSize="30dp" />
+
 
             <TextView
                 android:layout_width="wrap_content"
@@ -76,13 +76,13 @@
                 <ImageView
                     android:layout_width="200dp"
                     android:layout_height="200dp"
-                    android:src="@drawable/img_11" />
+                    android:src="@drawable/img_2" />
 
                 <ImageView
                     android:layout_width="200dp"
                     android:layout_height="200dp"
                     android:layout_marginLeft="10dp"
-                    android:src="@drawable/img_12" />
+                    android:src="@drawable/img_3" />
 
 
             </androidx.appcompat.widget.LinearLayoutCompat>
@@ -90,9 +90,9 @@
             <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/btn_1"
                 android:layout_width="200dp"
-                android:layout_height="200dp"
+                android:layout_height="100dp"
                 android:layout_gravity="center"
-                android:background="?android:attr/alertDialogIcon"
+                android:text="hisobla"
                 android:textSize="30dp" />
 
             <TextView

@@ -14,7 +14,7 @@ class OnBeshinchiMasala1Activity : AppCompatActivity() {
         setContentView(binding.root)
         binding.btn1.setOnClickListener {
             if (binding.s.text.toString().isNotEmpty()){
-                binding.misol.text="R=${binding.s.text.toString().toInt()/(2*pi)}\nL=${2*pi*(binding.s.text.toString().toInt()/(2*pi))}"
+                binding.misol.text="R=${Math.sqrt(binding.s.text.toString().toDouble()/pi)}\nL=${2*pi*(Math.sqrt(binding.s.text.toString().toDouble()/pi))}"
             }
         }
 

@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".mavzular.birinchMavzu.masala.OltinchiMasala1Activity">
+    tools:context=".mavzular.birinchMavzu.masala.OnbirinchiMasala1Activity">
+
 
     <ScrollView
         android:layout_width="match_parent"
@@ -20,7 +22,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:text="Begin6"
+                android:text="Begin11"
                 android:textColor="#000"
                 android:textSize="50dp" />
 
@@ -29,12 +31,12 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_marginHorizontal="10dp"
-                android:text="Begin6. Paralelepepidning tomonlari a, b, c berilgan. Uning hajmini V =a*b*c va to'la sirti S = 2-(a*b+b*c+a*c) aniqlansin."
+                android:text="Begin11. Nolga teng bo'lmagan ikkita son berilgan. Ularning yig'indisini, ko'paytmasini va har birining moduli aniqlansin."
                 android:textColor="#000"
                 android:textSize="30dp" />
 
             <EditText
-                android:id="@+id/a"
+                android:id="@+id/chiziq"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginHorizontal="10dp"
@@ -43,7 +45,7 @@
                 android:textSize="30dp" />
 
             <EditText
-                android:id="@+id/b"
+                android:id="@+id/chiziq1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginHorizontal="10dp"
@@ -51,14 +53,6 @@
                 android:inputType="number"
                 android:textSize="30dp" />
 
-            <EditText
-                android:id="@+id/c"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginHorizontal="10dp"
-                android:hint="c="
-                android:inputType="number"
-                android:textSize="30dp" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -76,13 +70,13 @@
                 <ImageView
                     android:layout_width="200dp"
                     android:layout_height="200dp"
-                    android:src="@drawable/img_11" />
+                    android:src="@drawable/img_1" />
 
                 <ImageView
                     android:layout_width="200dp"
                     android:layout_height="200dp"
                     android:layout_marginLeft="10dp"
-                    android:src="@drawable/img_12" />
+                    android:src="@drawable/img_18" />
 
 
             </androidx.appcompat.widget.LinearLayoutCompat>
@@ -90,9 +84,9 @@
             <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/btn_1"
                 android:layout_width="200dp"
-                android:layout_height="200dp"
+                android:layout_height="100dp"
                 android:layout_gravity="center"
-                android:background="?android:attr/alertDialogIcon"
+                android:text="hisobla"
                 android:textSize="30dp" />
 
             <TextView
@@ -107,4 +101,13 @@
 
         </androidx.appcompat.widget.LinearLayoutCompat>
     </ScrollView>
+
+
+
+
+
+
+
+
+
 </androidx.appcompat.widget.LinearLayoutCompat>
