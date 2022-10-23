@@ -68,5 +68,8 @@ class BirinchMavzuActivity : AppCompatActivity() {
         binding.btn18.setOnClickListener {
             startActivity(Intent(this, OnSakkizinchiMasala1Activity::class.java))
         }
+        binding.btn20.setOnClickListener {
+            startActivity(Intent(this, YigirmanchiMasala1Activity::class.java))
+        }
     }
 }
