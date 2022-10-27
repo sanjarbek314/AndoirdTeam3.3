@@ -10,6 +10,39 @@ class BinchiMasala2Activity : AppCompatActivity() {
     lateinit var binding: ActivityBinchiMasala2Binding
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_binchi_masala2)
+        binding=ActivityBinchiMasala2Binding.inflate(layoutInflater)
+        setContentView(binding.root)
+        binding.btn1.setOnClickListener {
+            var L=binding.L.text.toString().toInt()
+            if (L.toString().isNotEmpty()){
+              binding.misol.text="${L.toString().toInt()==1}"
+            }
+
+
+
+
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     }
 }

@@ -26,14 +26,6 @@ class YigirmanchiMasala1Activity : AppCompatActivity() {
 
 
 
-
-
-
-
-
-
-
-
         }
 
     }
