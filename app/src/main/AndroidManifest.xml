@@ -139,7 +139,7 @@
                 android:value="" />
         </activity>
         <activity
-            android:name="com.example.androidteam32.mavzular.ikkinchiMavzu.masala.BinchiMasala2"
+            android:name="com.example.androidteam32.mavzular.ikkinchiMavzu.masala.BinchiMasala2Activity"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
