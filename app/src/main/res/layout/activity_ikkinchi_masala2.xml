@@ -6,4 +6,85 @@
     android:layout_height="match_parent"
     tools:context="com.example.androidteam32.mavzular.ikkinchiMavzu.masala.IkkinchiMasala2">
 
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="integer 1"
+                android:textColor="#000"
+                android:textSize="50dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10dp"
+                android:text="Integer1. Uzunlik M kilogramda berilgan. Undagi to'liq tonnalar sonini aniqlovchi programma tuzilsin. (1t=1000kg)"
+                android:textColor="#000"
+                android:textSize="30dp" />
+
+            <EditText
+                android:id="@+id/M"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10dp"
+                android:layout_marginTop="10dp"
+                android:hint="M="
+                android:textSize="30dp" />
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:src="@drawable/img_34" />
+
+                <ImageView
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:layout_marginLeft="10dp"
+                    android:src="@drawable/img_3" />
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Yechimi"
+                android:textColor="#000"
+                android:textSize="50dp" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn_1"
+                android:layout_width="200dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:text="hisobla"
+                android:textSize="30dp" />
+
+            <TextView
+                android:id="@+id/misol"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="misol jovobi!"
+                android:textColor="#000"
+                android:textSize="50dp" />
+
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+    </ScrollView>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
