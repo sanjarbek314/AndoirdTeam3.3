@@ -14,12 +14,9 @@ class BinchiMasala2Activity : AppCompatActivity() {
         binding = ActivityBinchiMasala2Binding.inflate(layoutInflater)
         setContentView(binding.root)
         binding.btn1.setOnClickListener {
-            var L = binding.L.text.toString().toInt()
+            var L = binding.L.text.toString().toDouble()
             if (L.toString().isNotEmpty()) {
-                if (100 == 1) {
-                    binding.misol.text = "${L.toString().toInt()}"
-                }
-
+                    binding.misol.text = "${L/100} m"
 
             } else {
                 Toast.makeText(this, "raqam kiriting!!", Toast.LENGTH_SHORT).show()

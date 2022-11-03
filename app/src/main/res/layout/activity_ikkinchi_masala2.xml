@@ -19,7 +19,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:text="integer 1"
+                android:text="integer 2"
                 android:textColor="#000"
                 android:textSize="50dp" />
 
@@ -27,7 +27,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginHorizontal="10dp"
-                android:text="Integer1. Uzunlik M kilogramda berilgan. Undagi to'liq tonnalar sonini aniqlovchi programma tuzilsin. (1t=1000kg)"
+                android:text="Integer2. Uzunlik M kilogramda berilgan. Undagi to'liq tonnalar sonini aniqlovchi programma tuzilsin. (1t=1000kg)"
                 android:textColor="#000"
                 android:textSize="30dp" />
 

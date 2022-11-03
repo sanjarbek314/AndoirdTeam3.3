@@ -66,13 +66,13 @@
                 <ImageView
                     android:layout_width="200dp"
                     android:layout_height="200dp"
-                    android:src="@drawable/img_2" />
+                    android:src="@drawable/img" />
 
                 <ImageView
                     android:layout_width="200dp"
                     android:layout_height="200dp"
                     android:layout_marginLeft="10dp"
-                    android:src="@drawable/img_3" />
+                    android:src="@drawable/img_14" />
 
 
             </androidx.appcompat.widget.LinearLayoutCompat>

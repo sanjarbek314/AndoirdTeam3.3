@@ -60,24 +60,6 @@
                 android:textColor="#000"
                 android:textSize="50dp" />
 
-            <androidx.appcompat.widget.LinearLayoutCompat
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal">
-
-                <ImageView
-                    android:layout_width="200dp"
-                    android:layout_height="200dp"
-                    android:src="@drawable/img_2" />
-
-                <ImageView
-                    android:layout_width="200dp"
-                    android:layout_height="200dp"
-                    android:layout_marginLeft="10dp"
-                    android:src="@drawable/img_3" />
-
-
-            </androidx.appcompat.widget.LinearLayoutCompat>
 
             <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/btn_1"

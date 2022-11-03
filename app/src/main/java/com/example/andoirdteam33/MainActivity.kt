@@ -5,6 +5,7 @@ import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import com.example.andoirdteam33.databinding.ActivityMainBinding
 import com.example.androidteam32.mavzular.birinchMavzu.BirinchMavzuActivity
+import com.example.androidteam32.mavzular.ikkinchiMavzu.IkkinchiMavzuActivity
 
 class MainActivity : AppCompatActivity() {
     lateinit var binding: ActivityMainBinding
@@ -14,6 +15,9 @@ class MainActivity : AppCompatActivity() {
         setContentView(binding.root)
         binding.btn1.setOnClickListener {
             startActivity(Intent(this, BirinchMavzuActivity::class.java))
+        }
+        binding.btn2.setOnClickListener {
+            startActivity(Intent(this, IkkinchiMavzuActivity::class.java))
         }
 
 
