@@ -14,7 +14,7 @@ class OninchiMasala2Activity : AppCompatActivity() {
         binding.btn1.setOnClickListener {
             var a = binding.A.text.toString()
             if (a.isNotEmpty() && a.length == 3){
-                binding.misol.text="birliklar xonasi=${a.toInt()%10}\no'nliklar xonasi=${a.toInt()/10}"
+                binding.misol.text="birliklar xonasi=${a.toInt()%10}\no'nliklar xonasi=${(a.toInt()/10)%10}"
             }else{
                 Toast.makeText(this, "raqam kiriting!!", Toast.LENGTH_SHORT).show()
             }

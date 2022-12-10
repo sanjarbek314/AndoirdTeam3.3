@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@drawable/bg_sashka"
+    android:orientation="vertical"
+    tools:context=".Svetafor_new_app_activity">
+
+    <ImageView
+        android:id="@+id/red"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/svetafor_bg" />
+
+    <ImageView
+        android:id="@+id/yellow"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/svetafor_bg3" />
+
+    <ImageView
+        android:id="@+id/green"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/svetafor_bg3" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/bg_mavzu"
+        android:text="Ok"
+        android:textAllCaps="false"
+        android:textSize="30dp"
+        android:textStyle="italic" />
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>
