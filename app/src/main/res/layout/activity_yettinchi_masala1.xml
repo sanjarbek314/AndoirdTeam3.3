@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".mavzular.birinchMavzu.masala.YettinchiMasala1Activity">
+    tools:context=".mavzular.n1birinchMavzu.masala.YettinchiMasala1Activity">
 
     <ScrollView
         android:layout_width="match_parent"

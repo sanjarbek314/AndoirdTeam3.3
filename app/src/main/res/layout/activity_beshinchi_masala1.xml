@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".mavzular.birinchMavzu.masala.BeshinchiMasala1Activity">
+    tools:context=".mavzular.n1birinchMavzu.masala.BeshinchiMasala1Activity">
 
     <ScrollView
         android:layout_width="match_parent"

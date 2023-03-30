@@ -13,6 +13,34 @@
         android:theme="@style/Theme.AndoirdTeam33"
         tools:targetApi="31">
         <activity
+            android:name=".N6OltinchiMavzuActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".N5BeshinchiMavzuActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".N2IkkinchiMavzuActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".N1BirinchiMavzuActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
             android:name=".CallinActivity"
             android:exported="false">
             <meta-data
@@ -27,6 +55,7 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
@@ -34,7 +63,6 @@
         <activity
             android:name=".Svetafor_new_app_activity"
             android:exported="true">
-
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
@@ -54,70 +82,70 @@
                 android:value="" />
         </activity>
         <activity
-            android:name=".mavzular.ikkinchiMavzu.masala.OnIkkinchiMasala2Activity"
+            android:name=".mavzular.n2ikkinchiMavzu.masala.OnIkkinchiMasala2Activity"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:name=".mavzular.ikkinchiMavzu.masala.OnBirinchiMasala2Activity"
+            android:name=".mavzular.n2ikkinchiMavzu.masala.OnBirinchiMasala2Activity"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:name=".mavzular.ikkinchiMavzu.masala.OninchiMasala2Activity"
+            android:name=".mavzular.n2ikkinchiMavzu.masala.OninchiMasala2Activity"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:name=".mavzular.ikkinchiMavzu.masala.ToqqizinchiMasala2Activity"
+            android:name=".mavzular.n2ikkinchiMavzu.masala.ToqqizinchiMasala2Activity"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:name=".mavzular.ikkinchiMavzu.masala.SakkizinchiMasala2Activity"
+            android:name=".mavzular.n2ikkinchiMavzu.masala.SakkizinchiMasala2Activity"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:name=".mavzular.ikkinchiMavzu.masala.YettinchiMasala2Activity"
+            android:name=".mavzular.n2ikkinchiMavzu.masala.YettinchiMasala2Activity"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:name=".mavzular.ikkinchiMavzu.masala.OltiNchiMasala2Activity"
+            android:name=".mavzular.n2ikkinchiMavzu.masala.OltiNchiMasala2Activity"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:name=".mavzular.ikkinchiMavzu.masala.BeshinchiMasala2Activity"
+            android:name=".mavzular.n2ikkinchiMavzu.masala.BeshinchiMasala2Activity"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:name=".mavzular.ikkinchiMavzu.masala.TorTinchiMasala2Activity"
+            android:name=".mavzular.n2ikkinchiMavzu.masala.TorTinchiMasala2Activity"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:name=".mavzular.ikkinchiMavzu.masala.UchinchiMasala2Activity"
+            android:name=".mavzular.n2ikkinchiMavzu.masala.UchinchiMasala2Activity"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
@@ -131,119 +159,119 @@
                 android:value="" />
         </activity>
         <activity
-            android:name=".mavzular.birinchMavzu.masala.YigirmanchiMasala1Activity"
+            android:name=".mavzular.n1birinchMavzu.masala.YigirmanchiMasala1Activity"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:name=".mavzular.birinchMavzu.masala.OnSakkizinchiMasala1Activity"
+            android:name=".mavzular.n1birinchMavzu.masala.OnSakkizinchiMasala1Activity"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:name=".mavzular.birinchMavzu.masala.OnYettinchiMasala1Activity"
+            android:name=".mavzular.n1birinchMavzu.masala.OnYettinchiMasala1Activity"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:name=".mavzular.birinchMavzu.masala.OnOltinchiMasala1Activity"
+            android:name=".mavzular.n1birinchMavzu.masala.OnOltinchiMasala1Activity"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:name=".mavzular.birinchMavzu.masala.OnTortinchiMasala1Activity"
+            android:name=".mavzular.n1birinchMavzu.masala.OnTortinchiMasala1Activity"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:name=".mavzular.birinchMavzu.masala.OnUchinchiMasala1Activity"
+            android:name=".mavzular.n1birinchMavzu.masala.OnUchinchiMasala1Activity"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:name=".mavzular.birinchMavzu.masala.OnbirinchiMasala1Activity"
+            android:name=".mavzular.n1birinchMavzu.masala.OnbirinchiMasala1Activity"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:name=".mavzular.birinchMavzu.masala.OningchiMasala1Activity"
+            android:name=".mavzular.n1birinchMavzu.masala.OningchiMasala1Activity"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:name=".mavzular.birinchMavzu.masala.OnBeshinchiMasala1Activity"
+            android:name=".mavzular.n1birinchMavzu.masala.OnBeshinchiMasala1Activity"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:name=".mavzular.birinchMavzu.masala.OnikkinchiMasala1Activity"
+            android:name=".mavzular.n1birinchMavzu.masala.OnikkinchiMasala1Activity"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:name=".mavzular.birinchMavzu.masala.ToqqizinchiMasala1Activity"
+            android:name=".mavzular.n1birinchMavzu.masala.ToqqizinchiMasala1Activity"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:name=".mavzular.birinchMavzu.masala.SakkizinchiMasala1Activity"
+            android:name=".mavzular.n1birinchMavzu.masala.SakkizinchiMasala1Activity"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:name=".mavzular.birinchMavzu.masala.YettinchiMasala1Activity"
+            android:name=".mavzular.n1birinchMavzu.masala.YettinchiMasala1Activity"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:name=".mavzular.birinchMavzu.masala.OltinchiMasala1Activity"
+            android:name=".mavzular.n1birinchMavzu.masala.OltinchiMasala1Activity"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:name=".mavzular.birinchMavzu.masala.BeshinchiMasala1Activity"
+            android:name=".mavzular.n1birinchMavzu.masala.BeshinchiMasala1Activity"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:name=".mavzular.birinchMavzu.masala.TortinchiMasala1Activity"
+            android:name=".mavzular.n1birinchMavzu.masala.TortinchiMasala1Activity"
             android:exported="true">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:name=".mavzular.birinchMavzu.masala.UchinchiMasala1Activity"
+            android:name=".mavzular.n1birinchMavzu.masala.UchinchiMasala1Activity"
             android:exported="true">
             <meta-data
                 android:name="android.app.lib_name"
@@ -294,8 +322,6 @@
         <activity
             android:name=".MainActivity"
             android:exported="true">
-
-
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />

@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".mavzular.ikkinchiMavzu.masala.YettinchiMasala2Activity">
+    tools:context=".mavzular.n2ikkinchiMavzu.masala.YettinchiMasala2Activity">
 
     <ScrollView
         android:layout_width="match_parent"
