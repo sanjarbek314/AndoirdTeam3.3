@@ -49,7 +49,31 @@ class IkkinchiMavzuActivity : AppCompatActivity() {
         }
         binding . btn12 . setOnClickListener {
             startActivity(Intent(this, OnIkkinchiMasala2Activity::class.java))
-        }
+    }
+        binding . btn13 . setOnClickListener {
+            startActivity(Intent(this, OnUchinchiMasala2Activity::class.java))
+    }
+        binding . btn14 . setOnClickListener {
+            startActivity(Intent(this, M2N14MisolActivity::class.java))
+    }
+        binding . btn15 . setOnClickListener {
+            startActivity(Intent(this, M2N15MisolActivity::class.java))
+    }
+        binding . btn16 . setOnClickListener {
+            startActivity(Intent(this, M2N16MisoloActivity::class.java))
+    }
+        binding . btn17 . setOnClickListener {
+            startActivity(Intent(this, M2N17MisolActivity::class.java))
+    }
+        binding . btn18 . setOnClickListener {
+            startActivity(Intent(this, M2N18MisolActivity::class.java))
+    }
+        binding . btn19 . setOnClickListener {
+            startActivity(Intent(this, M2N19MisolActivity::class.java))
+    }
+        binding . btn20 . setOnClickListener {
+            startActivity(Intent(this, M2N20MisolActivity::class.java))
+    }
 
     }
 }

@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".mavzular.n3UchinchiMavzu.masalalar.M3N4MisolActivity">
+    tools:context=".mavzular.n2ikkinchiMavzu.masala.M2N20MisolActivity">
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -21,7 +21,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:text="Boolean4"
+                android:text="Integer20"
                 android:textColor="#000"
                 android:textSize="50dp" />
 
@@ -30,7 +30,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_marginHorizontal="10dp"
-                android:text="Boolean4. Ikkita butun A va B sonlari berilgan. Jumlani rostlikka tekshiring:A>2 va B<=3"
+                android:text="Integer20. Kun boshidan boshlab N sekund vaqt o'tti. Kun boshidan boshlab qancha to'la soat o'tganligini aniqlovchi programma tuzilsin."
                 android:textColor="#000"
                 android:textSize="30dp" />
 
@@ -39,15 +39,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginHorizontal="10dp"
-                android:hint="A="
-                android:inputType="number"
-                android:textSize="30dp" />
-            <EditText
-                android:id="@+id/B"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginHorizontal="10dp"
-                android:hint="B="
+                android:hint="N="
                 android:inputType="number"
                 android:textSize="30dp" />
 
@@ -81,4 +73,5 @@
 
         </androidx.appcompat.widget.LinearLayoutCompat>
     </ScrollView>
+
 </androidx.appcompat.widget.LinearLayoutCompat>

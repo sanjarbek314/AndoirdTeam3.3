@@ -11,5 +11,15 @@ class M3N2MisolActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding= ActivityM3N2MisolBinding.inflate(layoutInflater)
         setContentView(binding.root)
+        binding.btn1.setOnClickListener {
+            var a=binding.A.text.toString()
+            if (a.isNotEmpty()){
+                if (a.toInt()/2==1){
+                    binding.misol.text="A soni toq son"
+                }else{
+                    binding.misol.text="A soni juft son"
+                }
+            }
+        }
     }
 }
