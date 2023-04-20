@@ -10,6 +10,6 @@ class M3N8MisolActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding= ActivityM3N8MisolBinding.inflate(layoutInflater)
-        setContentView(binding.roo)
+        setContentView(binding.ro)
     }
 }
