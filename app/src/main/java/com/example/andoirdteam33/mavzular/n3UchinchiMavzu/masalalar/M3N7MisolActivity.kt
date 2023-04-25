@@ -11,5 +11,13 @@ class M3N7MisolActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding= ActivityM3N7MisolBinding.inflate(layoutInflater)
         setContentView(binding.root)
+        binding.btn1.setOnClickListener{
+            var a = binding.A.text.toString()
+            var b = binding.B.text.toString()
+            var c = binding.C.text.toString()
+            if (a.isNotEmpty() && b.isNotEmpty() && c.isNotEmpty()){
+                binding.misol.text=
+            }
+        }
     }
 }

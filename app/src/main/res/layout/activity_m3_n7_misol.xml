@@ -30,7 +30,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_marginHorizontal="10dp"
-                android:text="Boolean6. Uchta A, B, C butun sonlar berilgan. Jumlani rostlikka tekshiring:A<=B <=C"
+                android:text="Boolean7. Uchta A, B, C butun sonlar berilgan. Jumlani rostlikka tekshiring: B soni A va C sonlari orasida yotadi"
                 android:textColor="#000"
                 android:textSize="30dp" />
 
