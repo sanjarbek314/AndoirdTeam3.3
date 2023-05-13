@@ -10,5 +10,17 @@ class M4N2MisolActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding= ActivityM4N2MisolBinding.inflate(layoutInflater)
         setContentView(binding.root)
+        binding.btn1.setOnClickListener {
+            var a = binding.A.text.toString()
+            var s = if (a.toInt() > 0) {
+                a + 1
+            } else {
+                a.toInt()-2
+            }
+            if (a.isNotEmpty()) {
+                binding.misol.text = "$s"
+            }
+
+        }
     }
 }

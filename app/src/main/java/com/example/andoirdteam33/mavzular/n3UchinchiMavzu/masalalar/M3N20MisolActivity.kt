@@ -10,5 +10,8 @@ class M3N20MisolActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding= ActivityM3N20MisolBinding.inflate(layoutInflater)
         setContentView(binding.root)
+        binding.btn1.setOnClickListener {
+
+        }
     }
 }

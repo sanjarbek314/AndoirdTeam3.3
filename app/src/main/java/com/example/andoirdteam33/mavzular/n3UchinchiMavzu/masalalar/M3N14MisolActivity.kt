@@ -10,5 +10,13 @@ class M3N14MisolActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding= ActivityM3N14MisolBinding.inflate(layoutInflater)
         setContentView(binding.root)
+        binding.btn1.setOnClickListener {
+            var a=binding.A.toString()
+            var b=binding.B.toString()
+            var c=binding.C.toString()
+            if (a.isNotEmpty()&&b.isNotEmpty()&&c.isNotEmpty()){
+                binding.misol.text="${a.toInt() > 0 || b.toInt() < 0 || c.toInt() < 0}||${a.toInt() < 0 || b.toInt() > 0 || c.toInt() < 0}||${a.toInt() < 0 || b.toInt() < 0 || c.toInt() > 0}"
+            }
+        }
     }
 }

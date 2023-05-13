@@ -10,5 +10,6 @@ class M4N6MisolActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding= ActivityM4N6MisolBinding.inflate(layoutInflater)
         setContentView(binding.root)
+
     }
 }
