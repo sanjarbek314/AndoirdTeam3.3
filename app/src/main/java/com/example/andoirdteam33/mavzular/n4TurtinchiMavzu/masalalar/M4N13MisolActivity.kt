@@ -11,5 +11,8 @@ class M4N13MisolActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding= ActivityM4N13MisolBinding.inflate(layoutInflater)
         setContentView(binding.root)
+        binding.btn1.setOnClickListener {
+
+        }
     }
 }

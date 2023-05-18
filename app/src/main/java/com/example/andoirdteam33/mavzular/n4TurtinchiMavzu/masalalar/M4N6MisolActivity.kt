@@ -10,6 +10,18 @@ class M4N6MisolActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding= ActivityM4N6MisolBinding.inflate(layoutInflater)
         setContentView(binding.root)
+        binding.btn1.setOnClickListener {
+            var a = binding.A.text.toString()
+            var b = binding.B.text.toString()
+
+
+            if (a.toInt()>b.toInt()){
+                println("$a soni katta ")
+            }else{
+                println("$b soni katta ")
+            }
+
+        }
 
     }
 }

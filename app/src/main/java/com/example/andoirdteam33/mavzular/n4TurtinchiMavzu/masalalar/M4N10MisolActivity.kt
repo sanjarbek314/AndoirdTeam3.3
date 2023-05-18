@@ -10,5 +10,17 @@ class M4N10MisolActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding= ActivityM4N10MisolBinding.inflate(layoutInflater)
         setContentView(binding.root)
+        binding.btn1.setOnClickListener {
+        var a = binding.A.text.toString()
+        var b = binding.B.text.toString()
+        if (a!=b){
+            a=a+b
+            b=a
+        }
+        else{
+            a =0
+            b =0
+         }
+        }
     }
 }

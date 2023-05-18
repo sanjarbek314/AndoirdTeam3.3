@@ -10,5 +10,18 @@ class M4N7MisolActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding= ActivityM4N7MisolBinding.inflate(layoutInflater)
         setContentView(binding.root)
+        binding.btn1.setOnClickListener {
+            var a=binding.A.text.toString()
+            var b=binding.B.text.toString()
+            if (a>b){
+                println("kichiigini tartib raqami 2")
+            }else{
+                println("kichiigini tartib raqami 1")
+            }
+
+        }
+
+
+
     }
 }

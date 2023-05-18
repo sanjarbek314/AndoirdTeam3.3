@@ -42,6 +42,14 @@
                 android:hint="A="
                 android:inputType="number"
                 android:textSize="30dp" />
+            <EditText
+                android:id="@+id/B"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10dp"
+                android:hint="B="
+                android:inputType="number"
+                android:textSize="30dp" />
 
             <TextView
                 android:layout_width="wrap_content"

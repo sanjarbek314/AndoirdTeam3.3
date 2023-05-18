@@ -10,5 +10,18 @@ class M4N9MisolActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding= ActivityM4N9MisolBinding.inflate(layoutInflater)
         setContentView(binding.root)
+        binding.btn1.setOnClickListener {
+            var a=binding.A.text.toString()
+            var b=binding.B.text.toString()
+            var s=b
+            if (a>b){
+                var a=s
+                var b=a
+                println("$a,$b")
+            }else{
+                println("$a,$b ")
+            }
+
+        }
     }
 }
